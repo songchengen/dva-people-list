@@ -1,0 +1,12 @@
+.card {
+  padding: 0 40px;
+}
+
+.card img {
+  float: left;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.card p:last-child{
+  clear: both;
+}

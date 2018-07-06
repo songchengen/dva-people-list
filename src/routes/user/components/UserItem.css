@@ -1,0 +1,45 @@
+.li {
+  position: relative;
+  width: 300px;
+  height: 30px;
+  list-style-type: none;
+  background-color: #eee;
+  border-radius: 4px;
+  line-height: 30px;
+  margin: 10px 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.li:hover {
+  background-color: #BBD8DC;
+}
+
+.badge {
+  background-color: #607D8B;
+  display: inline-block;
+  color: white;
+  padding: 0 .5em;
+  border-radius: 4px 0 0 4px;
+  margin-right: 2em;
+  width: 20px;
+}
+
+.sex {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30px;
+  padding: 0 .2em;
+  text-align: center;
+  border-radius: 0 4px 4px 0;
+  color: white;
+}
+
+.male {
+  background-color: darkcyan;
+}
+
+.female {
+  background-color: coral;
+}
